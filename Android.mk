@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),sagit)
+ifeq ($(TARGET_DEVICE),chiron)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libbtnv
